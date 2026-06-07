@@ -3,22 +3,24 @@
 # Casey Meurer
 **Full Stack Developer**
 
-📧 Casey.Meurer19@hotmail.com | 📞 +46 76-246 23 42 | 📍 Stockholm, Sweden
-[Portfolio](meerkat81.github.io/my_portfolio/) | [LinkedIn](https://linkedin.com/in/Casey-Meurer) | [GitHub](https://github.com/Meerkat81)
+📧 Casey.Meurer19@hotmail.com | 📞 +46-07-246-23-42 | 📍 Stockholm, Sweden
+[Portfolio](https://meerkat81.github.io/my_portfolio/) | [LinkedIn](https://linkedin.com/in/Casey-Meurer) | [GitHub](https://github.com/Meerkat81)
 
 ---
 
 ## Summary
 
-Versatile professional with 3 years as a Full Stack Developer and 10+ years in construction project management. Experienced in building and maintaining full-stack applications, integrating third-party APIs, and creating backend testing suites. Background in lean methodologies, stakeholder collaboration, cost control, and cross-functional team coordination.
+Experienced full stack developer with production experience in React, Ruby on Rails, Node.js, Express, PostgreSQL, Next.js, and Python. Currently building features in a Next.js/Tailwind/Prisma stack at an early-stage startup. 3 years shipping full-stack features at Green Ocean Sciences, plus 10+ years in construction project management. Background in lean methodologies, stakeholder collaboration, and cross-functional team coordination.
 
 ---
 
 ## Skills
 
-**Development:** Full Stack Development · JavaScript · Node.js · React.js · Ruby on Rails · Express.js · Next.js · Python · HTML · Tailwind CSS · Jest · PostgreSQL
+**Development:** Full Stack Development · JavaScript · Node.js · React.js · Ruby on Rails · Express.js · Next.js · Python · HTML · Tailwind CSS · Jest · RSpec · PostgreSQL · Prisma · Sequelize · Docker
 
-**DevOps & Cloud:** Git · GitHub · GitFlow · Amazon Web Services (AWS) · SaltStack
+**AI/ML:** Ollama
+
+**DevOps & Cloud:** Git · GitHub · GitFlow · Amazon Web Services (AWS) · SaltStack · Docker
 
 **Other:** Payment Services · Agile Methodologies · Blockchain Integration · Project Planning · LEAN Methodologies
 
@@ -26,12 +28,20 @@ Versatile professional with 3 years as a Full Stack Developer and 10+ years in c
 
 ## Work Experience
 
+### Full Stack Developer (Part-time)
+**SuperAssets — Stockholm, Sweden**
+*July 2025 – Present*
+
+- Working with a Next.js, Tailwind, and Prisma stack debugging UI/UX and implementing new features.
+
+---
+
 ### Full Stack Developer
 **Green Ocean Sciences (Ionization Labs) — Austin, TX, USA**
 *August 2020 – May 2023*
 
 - Collaborated directly with the product team and customers to implement new features, resolve bugs, and eliminate technical debt using React, Ruby on Rails, Express, PostgreSQL, AWS, Python, and various external APIs.
-- Integrated QuickBooks payment processing, allowing customers to input credit card details for subscription billing.
+- Integrated QuickBooks payment processing and accounting functionalities into the software, enabling customers to input credit card details for subscription billing.
 - Helped create automated Certificate of Analysis reports, eliminating manual Excel-based workflows.
 - Built comprehensive testing suites for the Express backend using Jest.
 - Assisted with integration of Sicpa's Blockchain (Certus), writing report data for later verification via QR code.

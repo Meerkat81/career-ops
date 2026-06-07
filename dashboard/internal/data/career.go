@@ -40,6 +40,15 @@ func ParseApplications(careerOpsPath string) []model.CareerApplication {
 		}
 	}
 
+	// Report links in the tracker are stored relative to the tracker file's
+	// own directory (e.g. "../reports/..." when the tracker is at
+	// data/applications.md) so they stay clickable in a Markdown viewer.
+	// Re-base them against careerOpsPath so downstream filepath.Join(careerOpsPath, ReportPath) resolves correctly for both layouts.
+	relBase, err := filepath.Rel(careerOpsPath, filepath.Dir(filePath))
+	if err != nil {
+		relBase = "."
+	}
+
 	lines := strings.Split(string(content), "\n")
 	apps := make([]model.CareerApplication, 0)
 	num := 0
@@ -99,7 +108,7 @@ func ParseApplications(careerOpsPath string) []model.CareerApplication {
 		// Parse report link
 		if rm := reReportLink.FindStringSubmatch(fields[7]); rm != nil {
 			app.ReportNumber = rm[1]
-			app.ReportPath = rm[2]
+			app.ReportPath = filepath.Join(relBase, rm[2])
 		}
 
 		// Notes (field 8 if exists)
