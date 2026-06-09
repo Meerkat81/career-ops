@@ -35,7 +35,7 @@
 
 ### Round 0: TestGorilla Assessment -- audience: `peer-tech`
 
-**YOU ARE HERE**
+**COMPLETED 2026-06-09** -- SE 24th %ile, REST 98th %ile, Backend 88th %ile
 
 - **Duration:** ~35 minutes (3 timed sections)
 - **Conducted by:** Automated (TestGorilla platform)
@@ -54,6 +54,8 @@
   - **Backend:** SQL JOINs, ACID, normalization (2NF partial deps, 3NF transitive deps), indexes (speed reads, slow writes), Node event loop (single-threaded, non-blocking I/O), parameterized queries for SQLi, bcrypt for passwords.
 
 ### Round 1: Recruiter Screen -- audience: `recruiter-screen`
+
+**YOU ARE HERE**
 
 - **Duration:** 15 minutes
 - **Conducted by:** People Success Specialist
